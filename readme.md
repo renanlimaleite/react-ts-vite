@@ -6,4 +6,4 @@
 - typescript configs [x]
 - husky [x]
 - lint-staged [x]
-- storybook []
+- storybook [x]
