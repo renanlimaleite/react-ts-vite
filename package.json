@@ -40,6 +40,12 @@
       "yarn eslint --fix",
       "yarn prettier --write",
       "yarn vitest related"
+    ],
+    "src/**/**/**/*.{ts,tsx}": [
+      "yarn tsc",
+      "yarn eslint --fix",
+      "yarn prettier --write",
+      "yarn vitest related"
     ]
   }
 }
