@@ -1,9 +1,15 @@
 import React from 'react'
+import './index.css'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+const rootElement = document.getElementById('root')
+
+if (!rootElement) {
+  throw new Error('Root element does not exist in your base HTML')
+}
+
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>

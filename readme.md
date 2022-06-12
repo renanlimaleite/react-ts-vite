@@ -1,7 +1,7 @@
 - editorconfig [x]
 - eslint [x]
 - prettier [x]
-- git []
+- git [x]
 - paths []
 - typescript configs []
 - husky []
