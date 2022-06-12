@@ -4,6 +4,6 @@
 - git [x]
 - paths [x]
 - typescript configs [x]
-- husky []
-- lint-staged []
+- husky [x]
+- lint-staged [x]
 - storybook []
