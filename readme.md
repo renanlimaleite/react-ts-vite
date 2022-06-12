@@ -21,7 +21,7 @@ npx degit renanlimaleite/react-ts-vite your-app
 ```
 
 ## Dev:
-- Run the dev server:
+- Enter in your project, eg: `cd your-app/` and Run the dev server:
 ```
 yarn dev
 ```
