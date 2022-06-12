@@ -35,6 +35,11 @@
     "husky": "^8.0.0"
   },
   "lint-staged": {
-    "src/**/**/*.tsx": "yarn tsc && yarn eslint --fix"
+    "src/**/*.{ts,tsx}": [
+      "yarn tsc",
+      "yarn eslint --fix",
+      "yarn prettier --write",
+      "yarn vitest related"
+    ]
   }
 }
