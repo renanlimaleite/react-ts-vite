@@ -37,15 +37,11 @@
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
       "yarn tsc",
-      "yarn eslint --fix",
-      "yarn prettier --write",
-      "yarn vitest related"
+      "yarn eslint --fix"
     ],
     "src/**/**/**/*.{ts,tsx}": [
       "yarn tsc",
-      "yarn eslint --fix",
-      "yarn prettier --write",
-      "yarn vitest related"
+      "yarn eslint --fix"
     ]
   }
 }
